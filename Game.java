@@ -20,18 +20,18 @@ public class Game extends JPanel implements ActionListener, MouseListener {
 	 * 
 	 * 
 	 * */
-	private ImageIcon one = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\one.png");
-	private ImageIcon two = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\two.png");
-	private ImageIcon three = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\three.png");
-	private ImageIcon four = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\four.png");
-	private ImageIcon five = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\five.png"); //all icons needed for the game
-	private ImageIcon six = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\six.png");
-	private ImageIcon seven = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\seven.png");
-	private ImageIcon eight = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\eight.png");
-	private ImageIcon empty = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\empty.png");
-	private ImageIcon unpressed = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\unpressed.png");
-	private ImageIcon flag = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\flag.png");
-	private ImageIcon mine = new ImageIcon("C:\\Users\\Westin\\Desktop\\MinesweeperImages\\mine.png");
+	private ImageIcon one = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\one.png");
+	private ImageIcon two = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\two.png");
+	private ImageIcon three = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\three.png");
+	private ImageIcon four = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\four.png");
+	private ImageIcon five = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\five.png"); //all icons needed for the game
+	private ImageIcon six = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\six.png");
+	private ImageIcon seven = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\seven.png");
+	private ImageIcon eight = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\eight.png");
+	private ImageIcon empty = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\empty.png");
+	private ImageIcon unpressed = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\unpressed.png");
+	private ImageIcon flag = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\flag.png");
+	private ImageIcon mine = new ImageIcon("C:\\Users\\Westin\\Desktop\\Minesweeper\\Images\\mine.png");
 	
 	private Image scaledFlag = flag.getImage().getScaledInstance(55, 55,java.awt.Image.SCALE_SMOOTH);
 	private Image scaledUnpressed =unpressed.getImage().getScaledInstance(55, 55,java.awt.Image.SCALE_SMOOTH);
